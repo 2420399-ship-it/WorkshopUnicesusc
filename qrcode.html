@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesse o Projeto</title>
+
+    <style>
+        body{
+            margin:0;
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            background:#0f172a;
+            color:white;
+            font-family:Arial, sans-serif;
+        }
+
+        h1{
+            margin-bottom:20px;
+        }
+
+        .qr-container{
+            background:white;
+            padding:20px;
+            border-radius:20px;
+            box-shadow:0 0 20px rgba(0,255,255,.3);
+        }
+
+        img{
+            width:300px;
+            max-width:80vw;
+        }
+
+        p{
+            margin-top:20px;
+            opacity:.8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Escaneie para acessar o site</h1>
+
+    <div class="qr-container">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://2420399-ship-it.github.io/WorkshopUnicesusc/" alt="QR Code">    </div>
+
+    <p>Aponte a câmera do celular para o QR Code.</p>
+
+</body>
+</html>
